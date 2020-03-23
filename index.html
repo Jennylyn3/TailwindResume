@@ -21,11 +21,14 @@
 
 
             <div class="2">
-                <div class="py-6 px-1">
+                <div class="py-6 px-1 ">
                     <div class="bg-black h-1 ">.</div>
-                    <h2 class="uppercase text-lg font-bold bg-gray-500 mt-1">Objectives:</h2>
-                    <div class="leading-relaxed pt-3">Seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of Information Technology (IT).</div>
-                </div>
+                    <button class="row-button uppercase mt-1 text-lg w-full text-left font-bold bg-gray-500">Objective :
+                    </button>
+                    <div class="panel">
+                        <div class="leading-relaxed pt-3">Seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of Information Technology (IT).</div>
+                    </div>
+                   </div>
             </div>
 
 
@@ -213,6 +216,34 @@
 
         </div>
     </div>
+
+
+
+    <script>
+                // accordion
+                var acc = document.getElementsByClassName("row-button");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+
+                        var panel1 = this.nextElementSibling;
+                        if (panel1.style.display === "block") {
+                            panel1.style.display = "none";
+                        } else {
+                            panel1.style.display = "block";
+                        }
+                    });
+                }
+
+                $( document ).ready(function() {
+                $(".row-button").on("click", function(){
+                    $(this).find(".fa-chevron-down").toggleClass("rotate");
+                });
+                });
+    </script>
+
 
 
     
