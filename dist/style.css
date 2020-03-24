@@ -13946,20 +13946,18 @@ video {
   transition-duration: 1000ms;
 }
 
-span {
-  font-size: 14px;
-  font-weight: 100;
-  color: black;
-  position: absolute;
-  bottom: 40px;
-  right: 23px;
-}
-
 .panel {
-  background-color: #ffffff;
-  overflow: hidden;
   display: none;
   transition: max-height 0.5s ease-out;
+}
+
+.row-button{
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  background: #000000;
+  color: #ffffff;
+  border-color: #000000;
 }
 
 @media (min-width: 640px) {
@@ -67261,3 +67259,6 @@ span {
     transition-duration: 1000ms;
   }
 }
+
+
+
