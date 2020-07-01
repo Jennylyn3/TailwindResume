@@ -13955,9 +13955,123 @@ video {
   outline: none;
   cursor: pointer;
   transition: 0.5s;
-  background: #000000;
-  color: #ffffff;
   border-color: #000000;
+}
+
+.row-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.maxwidthcontainer {
+  max-width: 940px;
+  width: 100%;
+  /* border: 3px dashed green;  */
+  background-color: #c7c9ce;
+  margin: auto;
+}
+
+.bg-line-color {
+  background-color: #c7c9ce;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* .containers {
+    max-width: 1349px;
+    width: 100%;
+}  */
+
+.containerbg {
+  height: 583px;
+  /* border: 1px dashed green;  */
+  background-image: url(https://cdn.shopify.com/s/files/1/0366/5399/0028/files/coe.jpg?v=1586145810);
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+
+.containerprofile {
+  display: flex;
+  justify-content: center;
+  padding-top: 112px;
+}
+
+.containerprofile .container1, .containerprofile .container2 {
+  width: 470px;
+  height: 470px;
+  /* border: 4px dashed yellow; */
+  background-color:rgb(221, 214, 214);
+}
+
+.idpic {
+  width: 470px;
+  height: 470px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: 1px solid transparent;
+}
+
+.contents {
+  padding: 0px 50px;
+  margin-top: 83px;
+  margin-bottom: 10px;
+  max-width: 340px;
+  width: 100%;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size {
+  font-size: 30px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.containerlink {
+  max-width: 940px;
+  width: 100%;
+  height: 75px;
+  /* border: 3px dashed green;  */
+  background-color: #c7c9ce;
+  margin: auto;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+.boxlink {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* .linksection {
+    display: flex;
+}  */
+
+.link {
+  padding: 15px;
+  margin-right: 24px;
+}
+
+/* .link {
+    @apply p-15x mr-24px;
+} */
+
+img {
+  height: 35px;
+  width: 35px;
+  /* border: 3px dashed green; */
+  position: absolute;
 }
 
 @media (min-width: 640px) {
@@ -67258,7 +67372,5 @@ video {
   .xl\:duration-1000 {
     transition-duration: 1000ms;
   }
-}
-
-
+} 
 

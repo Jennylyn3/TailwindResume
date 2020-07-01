@@ -1,8 +1,9 @@
 module.exports = {
   theme: {
-    extend: {
-      'mobile':{'min':'425px'}
-    },
+    
+  },
+  extend: {
+      
   },
   variants: {},
   plugins: [],

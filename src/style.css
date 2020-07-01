@@ -19,8 +19,6 @@
     background-color: #000000;
     border-color: #000000;
 }
-
-
 .maxwidthcontainer {
     max-width: 940px;
     width: 100%;
@@ -28,35 +26,26 @@
     background-color: #c7c9ce;
     margin: auto;
 }
-
 .bg-line-color {
     background-color: #c7c9ce;
 }
-
-
-
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-.containers {
+/* .containers {
     max-width: 1349px;
     width: 100%;
-}
+}  */
 
 .containerbg {
     height: 583px;
-    border: 1px dashed green; 
-    background-image: url(/images/coe.jpg);
+    /* border: 1px dashed green;  */
+    background-image: url(https://cdn.shopify.com/s/files/1/0366/5399/0028/files/coe.jpg?v=1586145810);
     background-size: cover;
     background-repeat: no-repeat, repeat;
 }
-
-
-
-
 .containerprofile {
     display: flex;
     justify-content: center;
@@ -107,13 +96,16 @@ ul {
     justify-content: center;
     align-content: center;
 }
-.linksection {
+/* .linksection {
     display: flex;
-} 
+}  */
 .link {
     padding: 15px;
     margin-right: 24px;
 }
+/* .link {
+    @apply p-15x mr-24px;
+} */
 img {
     height: 35px;
     width: 35px;
